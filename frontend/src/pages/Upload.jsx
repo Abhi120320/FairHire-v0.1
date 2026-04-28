@@ -68,8 +68,7 @@ export default function Upload() {
       }
       setTimeout(() => setProcessStep(2), 1500);
       setTimeout(() => setProcessStep(3), 3000);
-      const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-      const API_URL = isLocal ? 'http://localhost:8000' : (import.meta.env.VITE_API_URL || 'http://localhost:8000');
+      const API_URL = import.meta.env.VITE_API_URL || 'https://fairhire-v0-1.onrender.com';
       const response = await fetch(`${API_URL}/api/full-audit`, { method: 'POST', body: formData });
       const data = await response.json();
       if (data.success) {
