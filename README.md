@@ -30,8 +30,8 @@ docker-compose up --build -d
 
 ### 3. Access the Application
 - **Frontend App:** [http://localhost:80](http://localhost:80)
-- **Backend API Docs (Swagger):** [http://localhost:8000/docs](http://localhost:8000/docs)
-- **Database Endpoint:** [http://localhost:8000/api/candidates](http://localhost:8000/api/candidates)
+- **Backend API Docs (Swagger):** [https://fairhire-v0-1.onrender.com/docs](https://fairhire-v0-1.onrender.com/docs)
+- **Database Endpoint:** [https://fairhire-v0-1.onrender.com/api/candidates](https://fairhire-v0-1.onrender.com/api/candidates)
 
 ---
 
